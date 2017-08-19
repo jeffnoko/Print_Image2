@@ -17,8 +17,10 @@ void setup() {
 	size(600, 600);
 	background(0);
 
-	img = loadImage("beach.jpg");
+  // Initiate connection to server
+  port.connect();
 
+	img = loadImage("beach.jpg");
 	img.resize(20, 30);
 
   println(img.width, img.height);
