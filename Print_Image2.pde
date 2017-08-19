@@ -3,13 +3,13 @@
  * To use it please start the Image_Printer Processing sketch first
  * (its folder is in this sketch's folder).
  */
- 
-//println(Serial.list()); Serial port = new Serial(this, Serial.list()[0], 9600); // <- uncomment this to run with a real machine
-PrintClient port = new PrintClient(); // <- make this a comment to run with a real machine
 
 import java.io.*;
 import java.net.*;
 import processing.serial.*;
+ 
+//println(Serial.list()); Serial port = new Serial(this, Serial.list()[0], 9600); // <- uncomment this to run with a real machine
+PrintClient port = new PrintClient(); // <- make this a comment to run with a real machine
 
 PImage img;
 
